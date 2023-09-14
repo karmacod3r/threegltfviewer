@@ -2,9 +2,7 @@
 import {
   htmlWebpackPlugin,
   copyWebpackPlugin,
-  eSLintWebpackPlugin,
   dotenvWebpackPlugin,
-  styleLintWebpackPlugin,
 } from './plugins/index.js';
 import { paths, config } from '../configuration/index.js';
 import { css, fonts, images, javaScript, typeScript } from './modules/index.js';
@@ -29,9 +27,7 @@ const output = {
 const plugins = [
   htmlWebpackPlugin,
   copyWebpackPlugin,
-  eSLintWebpackPlugin,
   dotenvWebpackPlugin,
-  styleLintWebpackPlugin,
 ];
 
 /**
