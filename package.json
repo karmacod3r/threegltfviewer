@@ -1,5 +1,5 @@
 {
-  "name": "typescript-webpack-boilerplate",
+  "name": "threegltfviewer",
   "version": "5.0.0",
   "private": false,
   "description": "A starter template/boilerplate built with TypeScript/JavaScript, Babel, Webpack 5, PostCSS, Jest.",
